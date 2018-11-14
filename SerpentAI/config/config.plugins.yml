@@ -1,0 +1,8 @@
+SerpentFineSweeperGamePlugin:
+  fps: 2
+SerpentPixelDungeonGameAgentPlugin:
+  frame_handler: PLAY
+SerpentPixelDungeonGamePlugin:
+  fps: 2
+SerpentShatteredPixelDungeonGamePlugin:
+  fps: 2

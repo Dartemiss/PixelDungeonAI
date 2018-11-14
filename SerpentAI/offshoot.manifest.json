@@ -1,0 +1,64 @@
+{
+    "plugins": {
+        "SerpentShatteredPixelDungeonGamePlugin": {
+            "name": "SerpentShatteredPixelDungeonGamePlugin",
+            "version": "0.1.0",
+            "files": [
+                {
+                    "path": "serpent_ShatteredPixelDungeon_game.py",
+                    "pluggable": "Game"
+                }
+            ],
+            "plugins": [],
+            "libraries": [],
+            "config": {
+                "fps": 2
+            }
+        },
+        "SerpentFineSweeperGamePlugin": {
+            "name": "SerpentFineSweeperGamePlugin",
+            "version": "0.1.0",
+            "files": [
+                {
+                    "path": "serpent_FineSweeper_game.py",
+                    "pluggable": "Game"
+                }
+            ],
+            "plugins": [],
+            "libraries": [],
+            "config": {
+                "fps": 2
+            }
+        },
+        "SerpentPixelDungeonGamePlugin": {
+            "name": "SerpentPixelDungeonGamePlugin",
+            "version": "0.1.0",
+            "files": [
+                {
+                    "path": "serpent_PixelDungeon_game.py",
+                    "pluggable": "Game"
+                }
+            ],
+            "plugins": [],
+            "libraries": [],
+            "config": {
+                "fps": 2
+            }
+        },
+        "SerpentPixelDungeonGameAgentPlugin": {
+            "name": "SerpentPixelDungeonGameAgentPlugin",
+            "version": "0.1.0",
+            "files": [
+                {
+                    "path": "serpent_PixelDungeon_game_agent.py",
+                    "pluggable": "GameAgent"
+                }
+            ],
+            "plugins": [],
+            "libraries": [],
+            "config": {
+                "frame_handler": "PLAY"
+            }
+        }
+    }
+}
